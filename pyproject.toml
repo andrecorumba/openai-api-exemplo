@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openai-api-exemplo"
+version = "0.1.0"
+description = ""
+authors = ["Andre Luiz Monteiro da Rocha"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.52.2"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
